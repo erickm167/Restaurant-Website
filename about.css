@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    font-family: 'Ranchers', sans-serif;
+    margin: 0;
+}
+
+#aboutHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35%;
+    padding: 30px;
+}
+
+#aboutMessage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DC0000;
+    color: white;
+    font-size: 20px;
+}

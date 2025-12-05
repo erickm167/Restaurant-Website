@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+    font-family: 'Ranchers', sans-serif;
+    margin: 0;
+}
+
+#menuHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35%;
+    padding: 30px;
+}
+
+#menuMessage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DC0000;
+    color: white;
+    font-size: 20px;
+}
+
+#menuItemsTop {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+#menuItemsTop div {
+    text-align: center;
+}
+
+#menuItemsTop p {
+    margin-top: auto;
+    position: relative;
+    left: 125px;
+}
+
+#menuItemsBottom {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+#menuItemsBottom div {
+    text-align: center;
+}
+
+#menuItemsBottom p {
+    margin-top: auto;
+    position: relative;
+    left: 125px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#orderButton {
+    background-color: #DC0000;
+    color: white;
+    font-size: 50px;
+    font-family: 'Ranchers', sans-serif;
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 100px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 40px;
+    cursor: pointer;
+}

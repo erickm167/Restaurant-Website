@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>The Burger Barn</title>
+    <link rel="stylesheet" href="landing.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="landingPage">
+        <div id="landingHeader">
+            <a style="color: white; text-decoration: none; font-size: 40px; text-align: center;"
+                href="menu.html">Menu</a>
+            <a style="color: #E50000; text-decoration: none; font-size: 40px; text-align: center;"
+                href="landing.html">The Burger Barn</a>
+            <a style="color: white; text-decoration: none; font-size: 40px; text-align: center;"
+                href="about.html">About</a>
+        </div>
+    </div>
+    <div id="grandOpeningMessage">
+        <h1>Grand Opening!</h1>
+    </div>
+    <div id="landingPageMainContent">
+        <h2 style="width: 30%; text-align: center;">Try our new 100% Angus Beef Smash Burger! Freshly made with top
+            notch all natural ingredients!</h2>
+        <img src="https://i.ibb.co/whQ74mWX/Screenshot-2025-11-25-at-11-37-27-AM-removebg-preview.png" alt="Picture of a smash burger." width="500px"
+            height="300px">
+        <h2 style="width: 30%; text-align: center;">Only $5.99! Limited time only! Try it while you can, or else miss
+            out forever... Only at select Burger Barn stores!</h2>
+    </div>
+    <br>
+    <br>
+    <button id="buyNowButton">Buy Now</button>
+</body>
+
+</html>
+
+<script>
+    document.getElementById("buyNowButton").addEventListener("click", function () {
+        window.location.href = "order.html";
+        localStorage.setItem("burger1Quantity", "1");
+    });
+</script>

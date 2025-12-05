@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>The Burger Barn</title>
+    <link rel="stylesheet" href="menu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="menuPage">
+        <div id="menuHeader">
+            <a style="color: white; text-decoration: none; font-size: 40px;" href="menu.html">Menu</a>
+            <a style="color: #E50000; text-decoration: none; font-size: 40px;" href="landing.html">The Burger Barn</a>
+            <a style="color: white; text-decoration: none; font-size: 40px;" href="about.html">About</a>
+        </div>
+        <div id="menuMainContent">
+            <div id="menuMessage">
+                <h1>Menu</h1>
+            </div>
+            <h1 style="color: #E50000; text-align: center; font-size: 60px;">BURGERS</h1>
+            <div id="menuItemsTop">
+                <div id="burger1">
+                    <h2 style="color: #E50000; font-size: 50px;">Barn Smash</h2>
+                    <p style="color: white; width: 70%; font-size: 25px; position: relative; left: 70px;">Two smashed
+                        patties, American cheese, shredded
+                        lettuce, pickles, diced onions, Barn Sauce.</p>
+                    <h2 style="color: white;">$5.99</h2>
+                </div>
+                <div id="burger2">
+                    <h2 style="color: #E50000; font-size: 50px;">Ranch Hand</h2>
+                    <p style="color: white; width: 50%; font-size: 25px;">Single patty, pepper jack, grilled jalapeños,
+                        chipotle mayo.</p>
+                    <h2 style="color: white;">$3.49</h2>
+                </div>
+                <div id="burger3">
+                    <h2 style="color: #E50000; font-size: 50px;">Old Faithful</h2>
+                    <p style="color: white; width: 50%; font-size: 25px;">Single patty, American cheese, ketchup,
+                        mustard, pickles.</p>
+                    <h2 style="color: white;">$4.99</h2>
+                </div>
+                <div id="burger4">
+                    <h2 style="color:#E50000; font-size: 50px;">Crispy Coop</h2>
+                    <p style="color: white; width: 50%; font-size: 25px;">Crispy fried chicken, slaw, pickles, honey
+                        mayo.</p>
+                    <h2 style="color: white;">$5.49</h2>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1 style="color: #E50000; text-align: center; font-size: 60px; margin-top: -100px;">SIDES/DRINKS</h1>
+            <div id="menuItemsBottom">
+                <div id="side1">
+                    <h2 style="color: #E50000; font-size: 50px;">Barn Fries</h2>
+                    <p style="color: white; width: 60%; font-size: 25px; position: relative; left: 90px;">Crispy
+                        seasoned fries served with your choice
+                        of dipping sauce.</p>
+                    <h2 style="color: white;">$2.99</h2>
+                </div>
+                <div id="side2">
+                    <h2 style="color: #E50000; font-size: 50px;">Haystack Onions</h2>
+                    <p style="color: white; width: 50%; font-size: 25px;">Golden fried onion rings served with your
+                        choice of dipping sauce.</p>
+                    <h2 style="color: white;">$3.49</h2>
+                </div>
+                <div id="side3">
+                    <h2 style="color: #E50000; font-size: 50px;">Fountain Drink</h2>
+                    <p style="color: white; width: 50%; font-size: 25px;">Choose from a variety of refreshing fountain
+                        drinks.</p>
+                    <h2 style="color: white;">$1.99</h2>
+                </div>
+                <div id="side4">
+                    <h2 style="color: #E50000; font-size: 50px;">Iced Tea</h2>
+                    <p style="color: white; width: 50%; font-size: 25px;">Freshly brewed iced tea, sweetened or
+                        unsweetened.</p>
+                    <h2 style="color: white;">$2.99</h2>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <button id="orderButton">Order Now</button>
+    </div>
+</body>
+
+</html>
+
+<script>
+    document.getElementById("orderButton").addEventListener("click", function () {
+        window.location.href = "order.html";
+    });
+</script>

@@ -1,0 +1,173 @@
+body {
+    background-color: black;
+    font-family: 'Ranchers', sans-serif;
+    margin: 0;
+}
+
+#orderHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35%;
+    padding: 30px;
+}
+
+#orderMessage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DC0000;
+    color: white;
+    font-size: 20px;
+}
+
+#orderItemsTop {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+#orderItemsTop div {
+    text-align: center;
+}
+
+#orderItemsTop p {
+    margin-top: auto;
+    position: relative;
+    left: 125px;
+}
+
+#orderItemsBottom {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+#orderItemsBottom div {
+    text-align: center;
+}
+
+#orderItemsBottom p {
+    margin-top: auto;
+    position: relative;
+    left: 125px;
+}
+
+#burger1Plus,
+#burger2Plus,
+#burger3Plus,
+#burger4Plus,
+#side1Plus,
+#side2Plus,
+#side3Plus,
+#side4Plus {
+    color: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+#burger1Minus,
+#burger2Minus,
+#burger3Minus,
+#burger4Minus,
+#side1Minus,
+#side2Minus,
+#side3Minus,
+#side4Minus {
+    color: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+#burger1Count,
+#burger2Count,
+#burger3Count,
+#burger4Count,
+#side1Count,
+#side2Count,
+#side3Count,
+#side4Count {
+    color: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    width: fit-content;
+    margin: 30px;
+}
+
+#burger1Controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#burger2Controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#burger3Controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#burger4Controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#side1Controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#side2Controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#side3Controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#side4Controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#totalPriceDisplay {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+#emptyCartButton, #placeOrderButton {
+    background-color: #DC0000;
+    color: white;
+    font-size: 30px;
+    font-family: 'Ranchers', sans-serif;
+    width: 200px;
+    height: 70px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#actionButtons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
